@@ -1,7 +1,12 @@
 package com;
 public class Calculator {
-    public static void main(String args[])
+
+    static void Print()
     {
         System.out.println("Helloworld");
+    }
+    public static void main(String args[])
+    {
+        Print();
     }
 }
